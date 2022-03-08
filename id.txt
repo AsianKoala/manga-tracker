@@ -1,0 +1,4 @@
+75803dda041598929bdd0905f7797cac
+
+
+ curl 'https://api.myanimelist.net/v2/anime?q=one&limit=4' -H 'X-MAL-CLIENT-ID 75803dda041598929bdd0905f7797cac'
