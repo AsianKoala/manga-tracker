@@ -33,3 +33,12 @@ def write_tracked_manga(to_write):
 
 def process_request(request):
     print()
+
+if __name__ == '__main__':
+    BLOCKCHAR = '#'
+    width = 10
+    xw = BLOCKCHAR * (width+3)
+    xword = 'bruhwtf'
+    xw += (BLOCKCHAR*2).join([xword[p:p+width] for p in range(0, len(xword), width)])
+    xw += BLOCKCHAR*(width+3)
+    print(xw)
